@@ -1,0 +1,18 @@
+# Secrets – never commit
+.env
+.env.*
+*.env
+!.env.example
+tokens.json
+
+# QuickBooks outputs (financial data – stays on your Mac)
+quickbooks/qb-errors.log
+quickbooks/payables.json
+quickbooks/*.csv
+quickbooks/chasers-*/
+*.pdf
+
+# Tooling
+node_modules/
+.vercel/
+.DS_Store

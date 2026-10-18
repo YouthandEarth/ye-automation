@@ -1,0 +1,9 @@
+{
+  "name": "ye-automation",
+  "private": true,
+  "description": "Youth & Earth automation scripts (QuickBooks Online UK, ...)",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "qb": "node quickbooks/qb.js"
+  }
+}
